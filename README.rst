@@ -31,4 +31,4 @@ This should generate following Kinds of notices:
 Example Alert: VNCScanner 
 ***************************
 
-
+1511943733.028717	CtxTCR2Yer0FR1tIBg	13.245.45.3	34021	136.159.9.83	5900	-	-	-tcp	Scan::VNCScanner	13.245.45.3 has hit  136.159.9.83, 136.159.114.108, 136.159.78.74, 136.159.80.9, IPs on vnc 5900/tcp	-	13.245.45.3	136.159.9.83	5900	-	bro	Notice::ACTION_LOG	21600.000000	F
