@@ -38,7 +38,7 @@ event connection_state_remove(c: connection) &priority=-5
 		for (ipl in rfb_dst[src])
 			iplist += fmt (" %s,", ipl) ; 
 
-		if ( c$id$orig_h !in rfb_scanners && |rfb_dst[src]| > 3) { 
+		if ( c$id$orig_h !in rfb_scanners && |rfb_dst[src]| > 4) { 
                         NOTICE([$note=Scan::VNCScanner,
                                 $conn=c,
                                 $suppress_for=6hrs,
