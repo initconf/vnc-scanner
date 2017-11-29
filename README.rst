@@ -12,6 +12,8 @@ Following functionality are provided by the script
 Installation
 ------------
 	bro-pkg install bro/initconf/vnc-scanner
+
+
 	The following packages will be INSTALLED:
 	  bro/initconf/vnc-scanner (master)
 
