@@ -1,0 +1,1 @@
+@load ./vnc-scanner.bro 
