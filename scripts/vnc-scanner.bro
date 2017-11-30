@@ -34,11 +34,11 @@ event connection_state_remove(c: connection) &priority=-5
 
 		add rfb_dst[src][dst]; 
 		
-		local iplist = "" ;
-		for (ipl in rfb_dst[src])
-			iplist += fmt (" %s,", ipl) ; 
-
 		if ( c$id$orig_h !in rfb_scanners && |rfb_dst[src]| > 4) { 
+
+			local iplist = "" ;
+			for (ipl in rfb_dst[src])
+				iplist += fmt (" %s,", ipl) ; 
                         NOTICE([$note=Scan::VNCScanner,
                                 $conn=c,
                                 $suppress_for=6hrs,
